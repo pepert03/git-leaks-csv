@@ -1,0 +1,355 @@
+leak,commit
+1,"Grant access to SkaleManager
+"
+2,"Rename secrets
+"
+3,"Update access control
+"
+4,"Update access control
+"
+5,"SKALE-4964 Fix SafeMock access issue
+"
+6,"SKALE-4964 Fix SafeMock access issue
+"
+7,"SKALE-4695 Remove web3 from skale token tests
+"
+8,"Merge pull request #647 from skalenetwork/enhancement/SKALE-2510-adopt-private-keys
+"
+9,"Enhancement/skale 2510 adopt private keys
+"
+10,"Merge branch 'enhancement/SKALE-2510-adopt-private-keys' of https://github.com/skalenetwork/skale-manager into enhancement/SKALE-2510-adopt-private-keys
+"
+11,"Rename environment private keys
+"
+12,"Fix SkaleToken verification
+"
+13,"Fix SkaleToken verification
+"
+14,"SKALE-3318 Fix problem with access granting during upgrade
+"
+15,"SKALE-3318 Fix access issue
+"
+16,"SKALE-3318 Fix manifest update for TokenLaunchLocker
+"
+17,"SKALE-3318 Fix manifest update for TokenLaunchManager
+"
+18,"SKALE-3318 Remove TokenLaunchLocker and TokenLaunchManager
+"
+19,"SKALE-3318 Grant access to ContractManager and Nodes
+"
+20,"SKALE-3513 Fix verification of SkaleToken
+"
+21,"SKALE-3844 Fix SkaleToken tests
+"
+22,"SKALE-3844 Fix TokenState tests
+"
+23,"SKALE-3793 Duplicate delegation controller in token state
+"
+24,"SKALE-3783 Add optimization of token transfers
+"
+25,"SKALE-2958 Fix docker credentials
+"
+26,"SKALE-2958 Add keys check
+"
+27,"Merge pull request #445 from skalenetwork/enhancement/SKALE-3504-hash-key
+"
+28,"Merge branch 'develop' into enhancement/SKALE-3504-hash-key
+"
+29,"SKALE-3273 Fix access issues during tests
+"
+30,"SKALE-3273 Fix access issues during tests
+"
+31,"SKALE-3273 Fix access error in BountyV2
+"
+32,"Modify KeyStorage and remove ECDH from contracts
+"
+33,"SKALE-3319 Minor changes in naming, remove LOCAL_PRIVATE_KEY and LOCAL_ENDPOINT
+"
+34,"SKALE-3220 Add private methods for setting Node status
+"
+35,"Add elliptic to test for publi keys
+"
+36,"Add public key to address function
+"
+37,"SKALE-3212 Mint tokens on bounty payments
+"
+38,"Merge pull request #367 from skalenetwork/enhancement/Remove-node-bls-public-keys
+"
+39,"Enhancement/remove node bls public keys
+"
+40,"Remove computation od node bls public key
+"
+41,"Fix TokenState
+"
+42,"Fix typo in keyStorage.ts
+"
+43,"Add information about skale-token
+"
+44,"Fix naming in TokenLaunchManager
+"
+45,"Fix naming in TokenLaunchManager
+"
+46,"Merge pull request #296 from skalenetwork/bugfix/DKG-BLS-public-key-and-node-rotation
+"
+47,"Bugfix/SKALE 2847 dkg bls public key and node rotation
+"
+48,"Merge branch 'develop' into bugfix/DKG-BLS-public-key-and-node-rotation
+"
+49,"SKALE-2847 fix calculate public key
+"
+50,"SKALE-2834 Fix test of admin access
+"
+51,"init fix for BLS public key
+"
+52,"Merge pull request #284 from skalenetwork/enhancement/SKALE-2811-review-access-control
+"
+53,"Enhancement/skale 2811 review access control
+"
+54,"Merge branch 'develop' into enhancement/SKALE-2811-review-access-control
+"
+55,"SKALE-2811 review access control and follow code style
+"
+56,"SKALE-2811 started review access control
+"
+57,"Merge pull request #277 from skalenetwork/feature/SKALE-2812-admin-key
+"
+58,"Merge branch 'develop' into feature/SKALE-2812-admin-key
+"
+59,"Merge pull request #272 from skalenetwork/bug/SKALE-2810-bls-public-keys
+"
+60,"SKALE-2810 compute public keys
+"
+61,"Merge branch 'develop' into bug/SKALE-2810-bls-public-keys
+"
+62,"Merge branch 'develop' into bug/SKALE-2810-bls-public-keys
+"
+63,"Fixed failing tests added SKALE-2737 test added getBLSPublicKey test
+"
+64,"Added KeyStorage contract
+"
+65,"Merge branch 'develop' into bug/SKALE-2810-bls-public-keys
+"
+66,"SKALE-2810 compute public keys
+"
+67,"SKALE-2764 SKALE-2774 Add completeTokenLaunch function
+"
+68,"SKALE-2063 Change modifiers in contracts from internal to private
+"
+69,"SKALE-2063 Make addNode private
+"
+70,"SKALE-2063 Make setNodeLeaving and setNodeLeft private
+"
+71,"SKALE-2694 SKALE-2709 Use AccessControl instead of Ownable
+"
+72,"SKALE-2694 SKALE-2709 Allow the foundation to create schains without tokens
+"
+73,"SKALE-2625 Rename secretKeyContribution argument
+"
+74,"SKALE-2364 Uncomment functions verifySignature, getPreviousGroupsPublicKey
+"
+75,"Add documentation to TokenState
+"
+76,"SKALE-2625 Change node public key format
+"
+77,"SKALE-2625 Add KeyShare structure
+"
+78,"SKALE-2364 changed access modifiers from external to public
+"
+79,"SKALE-2481 Start private and internal names with a single underscore
+"
+80,"SKALE-2477 Change token to avoid delegating of burned tokens
+"
+81,"SKALE-2477 Add reentrancy guard to SkaleToken
+"
+82,"SKALE-2477 Fix TokenLaunchLocker
+"
+83,"SKALE-2477 Fix TokenLaunchLocker
+"
+84,"SKALE-2477 Fix tokensReceived
+"
+85,"SKALE-2477 Fix TokenState
+"
+86,"SKALE-2359 Use common partial differences in TokenLaunchLocker
+"
+87,"SKALE-2284 Remove minting from the token constructor
+"
+88,"Merge pull request #128 from skalenetwork/bug/SKALE-2353-token
+"
+89,"SKALE-2353 Change ReentrancyGuard to not allow to delegate burning tokens
+"
+90,"SKALE-2353 Change ReentrancyGuard to not allow to delegate burning tokens
+"
+91,"SKALE-2301 Fix token state tests
+"
+92,"SKALE-2302 Change tokens lock period
+"
+93,"Bug/skale 2317 bounty for slashed tokens
+"
+94,"Update TokenLaunch.ts
+"
+95,"SKALE-2317 Add test to reproduce bounty for slashed tokens issue
+"
+96,"SKALE-2302 Lock tokens after network launch for 90 days instead of 3 months
+"
+97,"Merge pull request #110 from skalenetwork/feature/SKALE-2153-token-reentrancy
+"
+98,"Feature/skale 2153 token reentrancy
+"
+99,"Merge branch 'feature/SKALE-1642-delegation' into feature/SKALE-2153-token-reentrancy
+"
+100,"Merge pull request #102 from skalenetwork/feature/2144-burn-unlocked-tokens
+"
+101,"Feature/2144 burn unlocked tokens
+"
+102,"Merge branch 'develop' into feature/2144-burn-unlocked-tokens
+"
+103,"Merge branch 'develop' of https://github.com/skalenetwork/skale-manager into feature/2144-burn-unlocked-tokens
+"
+104,"SKALE-2144 allow burning only unlocked tokens
+"
+105,"Merge pull request #91 from skalenetwork/enhancement/SKALE-2214-added-past-public-keys
+"
+106,"Added past public keys
+"
+107,"Add getPreviousGroupsPublicKey
+"
+108,"Merge branch 'develop' of github.com:skalenetwork/skale-manager into enhancement/SKALE-2214-added-past-public-keys
+"
+109,"Merge branch 'develop' into enhancement/SKALE-2214-added-past-public-keys
+"
+110,"Merge branch 'develop' of github.com:skalenetwork/skale-manager into enhancement/SKALE-2214-added-past-public-keys
+"
+111,"Merge branch 'develop' into enhancement/SKALE-2214-added-past-public-keys
+"
+112,"Merge branch 'enahncement/SKALE-2228-added-block-to-schain' of github.com:skalenetwork/skale-manager into enhancement/SKALE-2214-added-past-public-keys
+"
+113,"Merge branch 'develop' of github.com:skalenetwork/skale-manager into enhancement/SKALE-2214-added-past-public-keys
+"
+114,"SKALE-2151 Add test to check if free tokens are locked by mistake
+"
+115,"Revert ""SKALE-2144 allow burning only unlocked tokens""
+"
+116,"SKALE-2146 Fix bug when tokens are not unlocked after slashing
+"
+117,"SKALE-2115 Allow SkaleManager to receive tokens
+"
+118,"SKALE-2115 Fix TokenLaunch tests
+"
+119,"SKALE-2115 Improve token launch test
+"
+120,"Added past public keys
+"
+121,"SKALE-2115 Fix token launch tests
+"
+122,"SKALE-2144 allow burning only unlocked tokens
+"
+123,"SKALE-2115 Implement TokenLaunchLocker
+"
+124,"SKALE-2115 Rename TokenSale with TokenLaunch
+"
+125,"SKALE-2060 added private keys to virtual environment
+"
+126,"Merge pull request #72 from skalenetwork/feature/SKALE-1984-access
+"
+127,"Feature/skale 1984 access
+"
+128,"SKALE-1984 Restrict access to ValidatorsFunctionality functions
+"
+129,"SKALE-1984 Restrict access to ValidatorService functions
+"
+130,"SKALE-1984 Restrict access to TokenState functions
+"
+131,"SKALE-1984 Restrict access to SkaleBalances functions
+"
+132,"SKALE-1984 Restrict access to Distributor functions
+"
+133,"SKALE-1984 Restrict access to DelegationService functions
+"
+134,"SKALE-1984 Restrict access to DelegationRequestManager functions
+"
+135,"SKALE-1984 Restrict access to DelegationPeriodManager functions
+"
+136,"SKALE-1984 Restrict access to DelegationController functions
+"
+137,"Fixed token tests and skale dkg tests
+"
+138,"SKALE-1950 fixed test in TokenSale
+"
+139,"Fixed skale manager and skale token tests
+"
+140,"SKALE-1973 Fix SkaleToken tests
+"
+141,"SKALE-1973 Fix issue with private keys on testing
+"
+142,"SKALE-1973 Fix gas issue on instrumented token deployment
+"
+143,"SKALE-1707 Implement returning of slashed tokens
+"
+144,"Merge pull request #55 from skalenetwork/feature/SKALE-1818-token-sale-manager
+"
+145,"Feature/skale 1818 token sale manager
+"
+146,"SKALE-1818 Add tests for TokenSaleManager
+"
+147,"SKALE-1620 fixed bugs in TokenState
+"
+148,"Merge pull request #53 from skalenetwork/feature/SKALE-1829-token-state
+"
+149,"Feature/skale 1829 token state
+"
+150,"SKALE-1829 Increase gas limit of SkaleToken for code coverage calculation
+"
+151,"SKALE-1829 Move purchased field from Delegation struct to mapping in TokenState contract
+"
+152,"SKALE-1829 Add token sale tests
+"
+153,"SKALE-1806 DKG related fixes, key parts order
+"
+154,"SKALE-1829 Add basic tests of TokenState
+"
+155,"Finally fixed order of public keys
+"
+156,"Fixed order of public key
+"
+157,"SKALE-1620 removed lock, unlock methods from SkaleToken
+"
+158,"SKALE-1620 added TokenState interface
+"
+159,"SKALE-1620 started using TokenState in delegation
+"
+160,"Merge branch 'feature/SKALE-1829-token-state' of https://github.com/skalenetwork/skale-manager into feature/SKALE-1620
+"
+161,"SKALE-1829 Add TokenState interface
+"
+162,"Merge pull request #48 from skalenetwork/feature/SKALE-1818-token-sale-manager
+"
+163,"Initial implementation of TokenSaleManager
+"
+164,"Merge branch 'feature/SKALE-1818-token-sale-manager' of https://github.com/skalenetwork/skale-manager into feature/delegation-contracts
+"
+165,"SKALE-1818 Update interfaces for TokenSaleManager
+"
+166,"SKALE-1818 Add initial implementation of TokenSaleManager
+"
+167,"Remove private keys from travis yml
+"
+168,"SKALE-1642 Add TokenSaleManager tests
+"
+169,"Fixed SkaleToken and SkaleManager test
+"
+170,"SKALE-1642 added function for delegating tokens
+"
+171,"SKALE-1642 added contract for stashing tokens
+"
+172,"fixed test SkaleToken
+"
+173,"SKALE-1213 added verify function based on schains publickey
+"
+174,"SKALE-1464 Fixed gas leak
+"
+175,"Added KeyExpansion
+"
+176,"Delete Unused contract ERC223Token.sol
+"
+177,"SKALE-815 Add tests for SkaleToken
+"
