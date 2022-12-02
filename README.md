@@ -11,4 +11,4 @@ Se requieren los datos del repositorio [skale-manager](https://github.com/skalen
 ## Ejecución
 El archivo `leaks_to_csv.py` se encarga de generar un archivo CSV con los datos de los leaks encontrados en el repositorio. Consta de dos funciones:
 - `extract()`: extrae los datos de los leaks encontrados en el repositorio a `commits.txt`.
-- `get_leaks()`: Genera un archivo CSV con los datos de los `commits.txt` a `leaks.csv`.
+- `git_leaks()`: Genera un archivo CSV con los datos de los `commits.txt` a `leaks.csv`.
